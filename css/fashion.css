@@ -3,6 +3,12 @@ body {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  
+}
+#content-header {
+  width: 1024px;
+  margin: auto;
+
 }
 
 #logo {
@@ -11,6 +17,8 @@ body {
   height: 50px;
   margin: 0;
   padding: 0;
+  width: auto;
+  background-position: center;
 }
 
 picture > img {
@@ -18,11 +26,12 @@ picture > img {
 }
 header {
   background-image: url(imagens/topo.jpg);
-  height: 700px;
-  background-position: right center;
-  background-size: cover;
+  height: 550px;
+  background-position: top center;
+  background-repeat: no-repeat;
   margin: 0%;
   border-top: 1px solid;
+
 }
 ul {
   text-align: right;
@@ -60,11 +69,12 @@ a:hover {
   width: 100%;
   display: flex;
   justify-content: center;
+  border: 3 solid red;
 }
 
 .portfolio {
-  width: 60%;
-  margin:60px;
+  width: 50%;
+  margin:0 60px 40px 60px;
 }
 .portfolio > h1 {
   padding: 10px;
@@ -119,7 +129,7 @@ a:hover {
   color: rgb(97, 97, 97);
   font-size: 13px;
   letter-spacing: 1.5px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 .about-section {
@@ -133,8 +143,7 @@ a:hover {
   width: 900px;
   margin: 0;
   padding: 0;
-  background-position: center;
-  
+  background-position: center; 
   display: flex;
   align-items: center;   
 }
